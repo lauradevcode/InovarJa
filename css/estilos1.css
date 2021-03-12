@@ -1,0 +1,88 @@
+body {
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.navbar {
+	width: 100%;
+	height: 100%;
+	color: rgb(255, 255, 255);
+	font-weight: bolder;
+	z-index: 3;
+}
+.navbar-nav > li >a{
+	color: red;
+  }
+  .navbar-nav > li:hover >a,
+  .navbar-nav > li.active >a
+  {
+	color: blueviolet;
+  }
+  nav a:hover {
+    color: aqua;
+}
+
+.butao1 {
+	background: #1592ed;
+	border-radius: 12px;
+	width: 110px;
+	height: 35px;
+	color: #ffffff;
+	display: inline-block;
+	font: normal bold 17px/35px "Calibri", sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px #000000;
+	margin-bottom: 3%;
+	margin-right: 15%;
+}
+
+.butao2 {
+	background: #ffffff;
+	border: 1px solid #11bfe3;
+	border-radius: 12px;
+	width: 110px;
+	height: 35px;
+	color: #095eca;
+	display: inline-block;
+	font: normal bold 17px/35px "Calibri", sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px #ffffff;
+	margin-right: 15%;
+}
+
+.destaque {
+	width: 100%;
+}
+
+.card:hover img{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+ }
+.social a {
+	/* tamanho da imagem */
+	height: 32px;
+	width: 32px;
+	/* image replacement */
+	display: block;
+	text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+	background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+	background-image: url(../img/twitter.png);
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+}
